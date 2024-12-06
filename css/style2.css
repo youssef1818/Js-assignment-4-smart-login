@@ -1,0 +1,9 @@
+.box{
+    height: 75%;
+}
+.success{
+    color:green;
+}
+.req,.exist{
+    color: #DC3541;
+}

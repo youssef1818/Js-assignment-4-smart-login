@@ -1,0 +1,41 @@
+body{
+    background-color: #24353F;
+}
+.shadowz {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+.box{
+    height: 60%;
+}
+.form-control {
+
+    background-color: #24353F;
+  
+    color: white;
+
+}
+.form-control:focus {
+
+    background-color: #24353F;
+    color: white;
+
+
+}
+
+
+.form-control::placeholder{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.success{
+    color:green;
+}
+.req,.notExisted{
+    color: #DC3541;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section class="vh-100 d-flex flex-column my-5 align-items-center">
+
+        <div class="box  shadowz py-5 px-2 col-8 text-center ">
+            <h1 class="text-info">Smart Login System</h1>
+            <div class="col-10 mx-auto">
+                <div class="mb-3">
+                    <input type="email" class="form-control " id="signinEmail" placeholder="Enter your email address">
+                </div>
+                <div class="mb-4">
+                    <input type="text" class="form-control" id="signinPass" placeholder="Enter your password">
+                </div>
+                <p class="success d-none">Success</p>
+                <p class="req d-none">All inputs are required</p>
+                <p class="notExisted d-none">incorrect email or pass</p>
+                <a id="button" ><button type="button" onclick="signIn()" class="w-100 btn btn-outline-info mt-2 mb-3">Login</button></a>
+                <p class="text-white pb-4">Don't have account? <a class=" text-white " href="singup.html">Sign up</a></p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/sign in.js"></script>
+    
+</body>
+</html>

@@ -24,11 +24,20 @@
                 <div class="mb-4">
                     <input type="text" class="form-control" id="inputPass" placeholder="Enter your password">
                 </div>
+                <div class="mb-4">
+                    <select class="form-select" id="inputRole">
+                        <option value="" disabled selected>Select role</option>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                    </select>
+                </div>
                 <p class="success d-none">Success</p>
                 <p class="req d-none">All inputs are required</p>
                 <p class="existed d-none">Email already exited</p>
                 <button type="button" onclick="addUser()" class="w-100 btn btn-outline-info mt-2 mb-3">Sign up</button>
+                
                 <p class="text-white pb-4">You have ann account? <a class=" text-white " href="index.html">Sign in</a></p>
+                
             </div>
         </div>
     </section>

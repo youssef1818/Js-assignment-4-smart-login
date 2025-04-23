@@ -1,9 +1,34 @@
-.navbar{
-    background-color:#24353F !important ;
+canvas {
+    position: absolute;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.2);
+  }
+  #walaa-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-family: "Playwrite RO", cursive;
+    color: rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 10px rgba(222, 223, 231, 0.7),
+                 0 0 20px rgba(226, 10, 10, 0.5),
+                 0 0 30px rgba(161, 6, 6, 0.3);
+    pointer-events: none;
+    user-select: none;
 }
-.text{
-    color: rgba(255, 255, 255, .5);
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
 }
-.blue{
-    color: #17A2B8;
+
+#walaa-text {
+    animation: pulse 2s infinite;
 }
